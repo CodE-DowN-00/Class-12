@@ -1,3 +1,3 @@
 def x ():
 	print("hello world")
-x
+x #this will call the function!
