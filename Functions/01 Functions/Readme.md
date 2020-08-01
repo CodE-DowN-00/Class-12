@@ -13,7 +13,7 @@ We can use any name for `function` as we use in `variables`.
 
 `x()` is used to call function `x`.
 
-Function should be call after declaration.
+Function should only be called after declaration.
 
 ***
 
@@ -36,10 +36,10 @@ When we call function by `sum(2,5)` `2` and `5` got assign to `a` and `b` respec
 ## Giving Default Value To Arguments
 ### Code
 ```python
-def greetings(name, greet = "Hii"): #greet has default value of "Hii"
+def greetings(name, greet = "Hii"): #greet has a default value of "Hii"
 	print(greet, name)
 greetings("CodE-DowN", "Hello")
-greetings("PythoN") #No second argument so greet has his default value "Hii"
+greetings("PythoN") #No second argument,so greet will take its default value "Hii"
 ```
 
 Here Argument `greet` has default value `Hii`...
